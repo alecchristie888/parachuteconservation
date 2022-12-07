@@ -1,0 +1,49 @@
+,value,author_label,country_continent,continent_label,,Country,Africa,Asia,Europe,Latin America & Caribbean,North America,Oceania
+1,16,No authors,Country,Africa,,No authors,16,6,0,10,2,2
+2,6,No authors,Country,Asia,,Any authors,84,94,100,90,98,98
+3,0,No authors,Country,Europe,,Lead authors,64,82,96,84,96,98
+4,10,No authors,Country,Latin America & Caribbean,,All authors,38,56,86,54,94,92
+5,2,No authors,Country,North America,,Continent,,,,,,
+6,2,No authors,Country,Oceania,,No authors,14,2,0,8,0,2
+7,84,Any authors,Country,Africa,,Any authors,86,98,100,92,100,98
+8,94,Any authors,Country,Asia,,Lead authors,64,88,100,86,98,98
+9,100,Any authors,Country,Europe,,All authors,40,66,98,56,96,92
+10,90,Any authors,Country,Latin America & Caribbean,,,,,,,,
+11,98,Any authors,Country,North America,,,,,,,,
+12,98,Any authors,Country,Oceania,,,,,,,,
+13,64,Lead authors,Country,Africa,,,,,,,,
+14,82,Lead authors,Country,Asia,,,,,,,,
+15,96,Lead authors,Country,Europe,,,,,,,,
+16,84,Lead authors,Country,Latin America & Caribbean,,,,,,,,
+17,96,Lead authors,Country,North America,,,,,,,,
+18,98,Lead authors,Country,Oceania,,,,,,,,
+19,38,All authors,Country,Africa,,,,,,,,
+20,56,All authors,Country,Asia,,,,,,,,
+21,86,All authors,Country,Europe,,,,,,,,
+22,54,All authors,Country,Latin America & Caribbean,,,,,,,,
+23,94,All authors,Country,North America,,,,,,,,
+24,92,All authors,Country,Oceania,,,,,,,,
+25,14,No authors,Continent,Africa,,,,,,,,
+26,2,No authors,Continent,Asia,,,,,,,,
+27,0,No authors,Continent,Europe,,,,,,,,
+28,8,No authors,Continent,Latin America & Caribbean,,,,,,,,
+29,0,No authors,Continent,North America,,,,,,,,
+30,2,No authors,Continent,Oceania,,,,,,,,
+31,86,Any authors,Continent,Africa,,,,,,,,
+32,98,Any authors,Continent,Asia,,,,,,,,
+33,100,Any authors,Continent,Europe,,,,,,,,
+34,92,Any authors,Continent,Latin America & Caribbean,,,,,,,,
+35,100,Any authors,Continent,North America,,,,,,,,
+36,98,Any authors,Continent,Oceania,,,,,,,,
+37,64,Lead authors,Continent,Africa,,,,,,,,
+38,88,Lead authors,Continent,Asia,,,,,,,,
+39,100,Lead authors,Continent,Europe,,,,,,,,
+40,86,Lead authors,Continent,Latin America & Caribbean,,,,,,,,
+41,98,Lead authors,Continent,North America,,,,,,,,
+42,98,Lead authors,Continent,Oceania,,,,,,,,
+43,40,All authors,Continent,Africa,,,,,,,,
+44,66,All authors,Continent,Asia,,,,,,,,
+45,98,All authors,Continent,Europe,,,,,,,,
+46,56,All authors,Continent,Latin America & Caribbean,,,,,,,,
+47,96,All authors,Continent,North America,,,,,,,,
+48,92,All authors,Continent,Oceania,,,,,,,,

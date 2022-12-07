@@ -1,0 +1,301 @@
+"","page_id","study_year","study_country","study_continent","no_local_country_authors","any_local_country_authors","lead_local_country_authors","all_local_country_authors","no_local_continent_authors","any_local_continent_authors","lead_local_continent_authors","all_local_continent_authors"
+"1",5611,2011,"Uganda","Africa",1,0,0,0,1,0,0,0
+"2",6515,2016,"South Africa","Africa",0,1,1,1,0,1,1,1
+"3",6373,2014,"Nigeria","Africa",0,1,1,1,0,1,1,1
+"4",6343,2014,"Nigeria","Africa",0,1,1,1,0,1,1,1
+"5",5207,2010,"Ethiopia","Africa",0,1,1,0,0,1,1,0
+"6",7351,2017,"Botswana","Africa",0,1,0,0,0,1,0,0
+"7",7603,2014,"Kenya","Africa",0,1,1,0,0,1,1,0
+"8",7390,2017,"South Africa","Africa",0,1,1,0,0,1,1,0
+"9",7947,2013,"Cameroon","Africa",1,0,0,0,0,1,0,0
+"10",7349,2016,"Senegal","Africa",0,1,0,0,0,1,0,0
+"11",7676,2010,"Zimbabwe","Africa",0,1,1,1,0,1,1,1
+"12",6435,2012,"South Africa","Africa",0,1,0,0,0,1,0,0
+"13",6926,2013,"South Africa","Africa",0,1,1,1,0,1,1,1
+"14",6374,2012,"Cameroon","Africa",0,1,1,1,0,1,1,1
+"15",6369,2011,"South Africa","Africa",1,0,0,0,1,0,0,0
+"16",6395,2012,"Ghana","Africa",0,1,1,1,0,1,1,1
+"17",6266,2017,"South Africa","Africa",0,1,1,1,0,1,1,1
+"18",7803,2009,"Kenya","Africa",1,0,0,0,1,0,0,0
+"19",7627,2012,"Botswana","Africa",0,1,1,1,0,1,1,1
+"20",6493,2010,"Senegal","Africa",0,1,1,0,0,1,1,0
+"21",7981,2010,"Botswana","Africa",0,1,1,1,0,1,1,1
+"22",7585,2009,"South Africa","Africa",0,1,1,1,0,1,1,1
+"23",8024,2017,"Kenya","Africa",0,1,1,1,0,1,1,1
+"24",8086,2017,"Tanzania","Africa",0,1,0,0,0,1,0,0
+"25",6728,2013,"South Africa","Africa",0,1,1,1,0,1,1,1
+"26",5580,2012,"Ethiopia","Africa",1,0,0,0,1,0,0,0
+"27",7626,2013,"South Africa","Africa",0,1,1,0,0,1,1,0
+"28",5218,2009,"Kenya","Africa",0,1,1,0,0,1,1,0
+"29",7983,2014,"Namibia","Africa",0,1,1,1,0,1,1,1
+"30",7996,2009,"South Africa","Africa",0,1,1,1,0,1,1,1
+"31",7658,2009,"Kenya","Africa",0,1,1,0,0,1,1,0
+"32",6372,2011,"Guinea","Africa",0,1,1,0,0,1,1,0
+"33",6368,2012,"South Africa","Africa",1,0,0,0,1,0,0,0
+"34",7982,2015,"Namibia","Africa",0,1,1,0,0,1,1,0
+"35",7040,2009,"South Africa","Africa",0,1,1,1,0,1,1,1
+"36",8093,2017,"Tanzania","Africa",0,1,0,0,0,1,0,0
+"37",1427,2009,"Kenya","Africa",1,0,0,0,1,0,0,0
+"38",6881,2015,"Tanzania","Africa",0,1,0,0,0,1,0,0
+"39",6357,2009,"Madagascar","Africa",0,1,1,0,0,1,1,0
+"40",6363,2012,"Kenya","Africa",0,1,0,0,0,1,0,0
+"41",7623,2013,"South Africa","Africa",0,1,1,1,0,1,1,1
+"42",7538,2013,"Tanzania","Africa",1,0,0,0,1,0,0,0
+"43",7810,2016,"Namibia","Africa",0,1,1,0,0,1,1,1
+"44",7202,2015,"Ghana","Africa",0,1,0,0,0,1,0,0
+"45",7954,2009,"South Africa","Africa",0,1,1,0,0,1,1,0
+"46",7004,2013,"Seychelles","Africa",0,1,0,0,0,1,0,0
+"47",7657,2011,"Kenya","Africa",0,1,1,1,0,1,1,1
+"48",3208,2010,"South Africa","Africa",0,1,1,1,0,1,1,1
+"49",7721,2010,"South Africa","Africa",0,1,1,0,0,1,1,0
+"50",8150,2017,"Zimbabwe","Africa",0,1,0,0,0,1,0,0
+"51",8064,2015,"India","Asia",0,1,1,1,0,1,1,1
+"52",3286,2010,"Israel","Asia",0,1,1,1,0,1,1,1
+"53",7076,2014,"Japan","Asia",0,1,1,0,0,1,1,1
+"54",7063,2013,"Kuwait","Asia",0,1,1,1,0,1,1,1
+"55",8017,2017,"Tajikistan","Asia",1,0,0,0,1,0,0,0
+"56",5203,2011,"China","Asia",0,1,1,0,0,1,1,0
+"57",7517,2011,"India","Asia",0,1,0,0,0,1,0,0
+"58",5361,2012,"India","Asia",0,1,1,1,0,1,1,1
+"59",7532,2016,"Thailand","Asia",0,1,1,0,0,1,1,1
+"60",7595,2011,"Iran","Asia",0,1,1,1,0,1,1,1
+"61",5860,2013,"Japan","Asia",0,1,0,0,0,1,1,1
+"62",5186,2010,"Pakistan","Asia",0,1,1,1,0,1,1,1
+"63",7368,2015,"Nepal","Asia",0,1,0,0,0,1,0,0
+"64",3287,2010,"Israel","Asia",0,1,1,1,0,1,1,1
+"65",6517,2013,"China","Asia",0,1,1,1,0,1,1,1
+"66",7690,2014,"China","Asia",0,1,1,0,0,1,1,0
+"67",5294,2012,"India","Asia",0,1,1,0,0,1,1,0
+"68",5175,2012,"China","Asia",0,1,1,1,0,1,1,1
+"69",5588,2009,"Israel","Asia",0,1,1,1,0,1,1,1
+"70",6208,2009,"Israel","Asia",0,1,1,1,0,1,1,1
+"71",7933,2013,"Nepal","Asia",0,1,0,0,0,1,0,0
+"72",5124,2012,"Japan","Asia",0,1,1,1,0,1,1,1
+"73",8003,2016,"Malaysia","Asia",1,0,0,0,0,1,1,1
+"74",6579,2013,"Indonesia","Asia",0,1,0,0,0,1,0,0
+"75",8023,2009,"Bangladesh","Asia",0,1,1,1,0,1,1,1
+"76",5314,2010,"India","Asia",0,1,1,1,0,1,1,1
+"77",8002,2014,"China","Asia",0,1,1,1,0,1,1,1
+"78",5223,2011,"Japan","Asia",0,1,1,1,0,1,1,1
+"79",7370,2011,"India","Asia",0,1,1,0,0,1,1,0
+"80",7131,2009,"Philippines","Asia",0,1,1,1,0,1,1,1
+"81",6603,2014,"Malaysia","Asia",0,1,1,0,0,1,1,1
+"82",5914,2017,"Thailand","Asia",0,1,1,1,0,1,1,1
+"83",6786,2015,"Iran","Asia",0,1,1,1,0,1,1,1
+"84",6755,2010,"Japan","Asia",0,1,1,1,0,1,1,1
+"85",5226,2009,"China","Asia",0,1,1,1,0,1,1,1
+"86",6358,2011,"Indonesia","Asia",0,1,0,0,0,1,0,0
+"87",5309,2011,"China","Asia",0,1,1,0,0,1,1,0
+"88",8007,2017,"China","Asia",0,1,1,1,0,1,1,1
+"89",6375,2014,"Vietnam","Asia",0,1,1,0,0,1,1,0
+"90",6163,2012,"Syria","Asia",0,1,1,0,0,1,1,0
+"91",5301,2012,"India","Asia",0,1,1,1,0,1,1,1
+"92",6352,2011,"India","Asia",0,1,1,1,0,1,1,1
+"93",7991,2016,"Sri Lanka","Asia",0,1,1,0,0,1,1,0
+"94",5990,2009,"Turkey","Asia",0,1,1,0,0,1,1,0
+"95",7614,2009,"Japan","Asia",0,1,1,1,0,1,1,1
+"96",6780,2013,"Indonesia","Asia",1,0,0,0,0,1,1,0
+"97",7165,2011,"China","Asia",0,1,1,1,0,1,1,1
+"98",7071,2009,"Taiwan","Asia",0,1,1,1,0,1,1,1
+"99",5961,2015,"Israel","Asia",0,1,1,1,0,1,1,1
+"100",5232,2012,"China","Asia",0,1,1,0,0,1,1,0
+"101",7162,2014,"UK","Europe",0,1,1,0,0,1,1,0
+"102",2027,2009,"Czech Republic","Europe",0,1,1,1,0,1,1,1
+"103",5743,2009,"Sweden","Europe",0,1,1,1,0,1,1,1
+"104",4266,2011,"Germany","Europe",0,1,1,1,0,1,1,1
+"105",6554,2014,"Finland","Europe",0,1,1,1,0,1,1,1
+"106",6867,2017,"Spain","Europe",0,1,1,1,0,1,1,1
+"107",6973,2012,"Spain","Europe",0,1,1,1,0,1,1,1
+"108",7046,2010,"UK","Europe",0,1,1,1,0,1,1,1
+"109",7568,2015,"Spain","Europe",0,1,1,1,0,1,1,1
+"110",3278,2009,"France","Europe",0,1,1,0,0,1,1,1
+"111",6021,2012,"Portugal","Europe",0,1,1,1,0,1,1,1
+"112",7754,2009,"UK","Europe",0,1,1,1,0,1,1,1
+"113",2753,2010,"UK","Europe",0,1,1,1,0,1,1,1
+"114",6088,2011,"Spain","Europe",0,1,1,1,0,1,1,1
+"115",5677,2009,"Spain","Europe",0,1,1,1,0,1,1,1
+"116",4737,2011,"Norway","Europe",0,1,1,1,0,1,1,1
+"117",7462,2011,"Italy","Europe",0,1,1,1,0,1,1,1
+"118",6073,2011,"Spain","Europe",0,1,1,1,0,1,1,1
+"119",6448,2014,"Spain","Europe",0,1,1,1,0,1,1,1
+"120",7431,2016,"Italy","Europe",0,1,1,1,0,1,1,1
+"121",6086,2015,"Spain","Europe",0,1,1,0,0,1,1,1
+"122",7662,2013,"Switzerland","Europe",0,1,1,1,0,1,1,1
+"123",5146,2013,"UK","Europe",0,1,1,1,0,1,1,1
+"124",6776,2012,"Czech Republic","Europe",0,1,1,1,0,1,1,1
+"125",2705,2010,"Sweden","Europe",0,1,1,1,0,1,1,1
+"126",7589,2014,"Spain","Europe",0,1,1,1,0,1,1,1
+"127",6079,2009,"Spain","Europe",0,1,1,1,0,1,1,1
+"128",4954,2011,"Switzerland","Europe",0,1,1,1,0,1,1,1
+"129",7113,2015,"UK","Europe",0,1,1,1,0,1,1,1
+"130",6031,2010,"Spain","Europe",0,1,1,1,0,1,1,1
+"131",6083,2013,"Spain","Europe",0,1,1,0,0,1,1,1
+"132",5381,2010,"Lithuania","Europe",0,1,1,1,0,1,1,1
+"133",6576,2015,"Germany","Europe",0,1,1,1,0,1,1,1
+"134",6872,2017,"France","Europe",0,1,0,0,0,1,1,1
+"135",4745,2011,"Norway","Europe",0,1,1,0,0,1,1,1
+"136",2633,2009,"Germany","Europe",0,1,1,1,0,1,1,1
+"137",7731,2012,"Slovakia","Europe",0,1,0,0,0,1,1,1
+"138",5376,2012,"Ireland","Europe",0,1,1,1,0,1,1,1
+"139",6736,2013,"UK","Europe",0,1,1,1,0,1,1,1
+"140",5754,2009,"Finland","Europe",0,1,1,1,0,1,1,1
+"141",7066,2016,"Greece","Europe",0,1,1,1,0,1,1,1
+"142",6176,2016,"Spain","Europe",0,1,1,1,0,1,1,1
+"143",4003,2009,"Sweden","Europe",0,1,1,1,0,1,1,1
+"144",4803,2012,"UK","Europe",0,1,1,1,0,1,1,1
+"145",5959,2013,"Italy","Europe",0,1,1,1,0,1,1,1
+"146",6004,2014,"Spain","Europe",0,1,1,1,0,1,1,1
+"147",3809,2009,"Germany","Europe",0,1,1,1,0,1,1,1
+"148",6587,2014,"Poland","Europe",0,1,1,1,0,1,1,1
+"149",7007,2016,"Belgium","Europe",0,1,1,1,0,1,1,1
+"150",5692,2011,"Finland","Europe",0,1,1,1,0,1,1,1
+"151",6436,2012,"Mexico","Latin America & Caribbean",1,0,0,0,1,0,0,0
+"152",6833,2009,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"153",8009,2014,"Mexico","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"154",5757,2011,"Brazil","Latin America & Caribbean",0,1,0,0,0,1,0,0
+"155",5976,2013,"Chile","Latin America & Caribbean",0,1,0,0,0,1,0,0
+"156",7392,2014,"Argentina","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"157",6923,2010,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"158",7779,2016,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"159",4848,2010,"Argentina","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"160",7965,2013,"Chile","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"161",7352,2017,"Brazil","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"162",7578,2012,"Argentina","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"163",5586,2009,"Colombia","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"164",7001,2009,"Mexico","Latin America & Caribbean",0,1,1,0,0,1,1,1
+"165",7074,2009,"Mexico","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"166",8179,2013,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"167",7886,2013,"Chile","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"168",6927,2016,"Mexico","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"169",7524,2017,"Argentina","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"170",5623,2010,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"171",5687,2011,"Mexico","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"172",5808,2010,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"173",7104,2009,"Ecuador","Latin America & Caribbean",1,0,0,0,0,1,1,0
+"174",7816,2016,"Colombia","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"175",7021,2017,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"176",3721,2009,"Argentina","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"177",6945,2012,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"178",7167,2011,"Argentina","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"179",7771,2011,"Brazil","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"180",6932,2013,"Costa Rica","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"181",5458,2010,"Mexico","Latin America & Caribbean",1,0,0,0,1,0,0,0
+"182",5686,2012,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"183",3676,2011,"Ecuador","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"184",5634,2009,"Mexico","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"185",6416,2012,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"186",5632,2012,"Bolivia","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"187",7481,2015,"Argentina","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"188",7168,2012,"Argentina","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"189",3300,2009,"Argentina","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"190",4974,2010,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"191",7069,2014,"Mexico","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"192",5702,2011,"Costa Rica","Latin America & Caribbean",0,1,0,0,0,1,0,0
+"193",5685,2009,"Panama","Latin America & Caribbean",1,0,0,0,1,0,0,0
+"194",7123,2017,"Belize","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"195",8060,2015,"Argentina","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"196",7859,2013,"Mexico","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"197",6834,2012,"Brazil","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"198",7075,2010,"Mexico","Latin America & Caribbean",0,1,1,0,0,1,1,0
+"199",7189,2018,"Chile","Latin America & Caribbean",0,1,1,1,0,1,1,1
+"200",5459,2011,"Mexico","Latin America & Caribbean",1,0,0,0,1,0,0,0
+"201",5669,2010,"USA","North America",0,1,1,1,0,1,1,1
+"202",7513,2015,"Canada","North America",1,0,0,0,0,1,0,0
+"203",5958,2012,"USA","North America",0,1,1,1,0,1,1,1
+"204",7375,2013,"USA","North America",0,1,1,1,0,1,1,1
+"205",7788,2011,"USA","North America",0,1,1,1,0,1,1,1
+"206",7893,2016,"USA","North America",0,1,1,1,0,1,1,1
+"207",7591,2011,"USA","North America",0,1,1,1,0,1,1,1
+"208",7666,2009,"Canada","North America",0,1,1,1,0,1,1,1
+"209",5844,2009,"USA","North America",0,1,1,1,0,1,1,1
+"210",6233,2015,"USA","North America",0,1,1,1,0,1,1,1
+"211",5117,2009,"USA","North America",0,1,1,1,0,1,1,1
+"212",6171,2011,"USA","North America",0,1,1,1,0,1,1,1
+"213",6068,2010,"USA","North America",0,1,1,1,0,1,1,1
+"214",8104,2010,"USA","North America",0,1,1,1,0,1,1,1
+"215",7119,2017,"USA","North America",0,1,1,0,0,1,1,0
+"216",4951,2010,"USA","North America",0,1,1,1,0,1,1,1
+"217",5798,2010,"USA","North America",0,1,1,1,0,1,1,1
+"218",4729,2012,"USA","North America",0,1,1,1,0,1,1,1
+"219",7995,2010,"USA","North America",0,1,1,1,0,1,1,1
+"220",4236,2009,"Canada","North America",0,1,1,1,0,1,1,1
+"221",5635,2010,"USA","North America",0,1,1,1,0,1,1,1
+"222",7363,2017,"USA","North America",0,1,1,1,0,1,1,1
+"223",7101,2013,"USA","North America",0,1,1,1,0,1,1,1
+"224",7691,2011,"USA","North America",0,1,1,1,0,1,1,1
+"225",7863,2013,"USA","North America",0,1,1,1,0,1,1,1
+"226",4789,2012,"USA","North America",0,1,1,1,0,1,1,1
+"227",8126,2015,"USA","North America",0,1,1,1,0,1,1,1
+"228",4852,2011,"USA","North America",0,1,1,1,0,1,1,1
+"229",6725,2009,"USA","North America",0,1,1,1,0,1,1,1
+"230",5810,2010,"USA","North America",0,1,1,1,0,1,1,1
+"231",5761,2011,"Canada","North America",0,1,0,0,0,1,1,1
+"232",8090,2009,"USA","North America",0,1,1,1,0,1,1,1
+"233",3574,2012,"USA","North America",0,1,1,1,0,1,1,1
+"234",7772,2012,"USA","North America",0,1,1,1,0,1,1,1
+"235",6575,2014,"Canada","North America",0,1,1,1,0,1,1,1
+"236",7836,2012,"USA","North America",0,1,1,1,0,1,1,1
+"237",1848,2009,"USA","North America",0,1,1,1,0,1,1,1
+"238",7205,2016,"USA","North America",0,1,1,1,0,1,1,1
+"239",6108,2011,"USA","North America",0,1,1,1,0,1,1,1
+"240",6446,2011,"USA","North America",0,1,1,1,0,1,1,1
+"241",4830,2010,"USA","North America",0,1,1,1,0,1,1,1
+"242",5670,2011,"USA","North America",0,1,1,1,0,1,1,1
+"243",5380,2010,"USA","North America",0,1,1,1,0,1,1,1
+"244",3673,2009,"Canada","North America",0,1,1,1,0,1,1,1
+"245",7115,2013,"USA","North America",0,1,1,1,0,1,1,1
+"246",8117,2015,"USA","North America",0,1,1,1,0,1,1,1
+"247",7564,2011,"USA","North America",0,1,1,1,0,1,1,1
+"248",7487,2016,"USA","North America",0,1,1,1,0,1,1,1
+"249",5022,2011,"Canada","North America",0,1,1,1,0,1,1,1
+"250",6447,2012,"USA","North America",0,1,1,1,0,1,1,1
+"251",1599,2009,"Australia","Oceania",0,1,1,1,0,1,1,1
+"252",7577,2015,"Australia","Oceania",0,1,1,1,0,1,1,1
+"253",8116,2012,"Australia","Oceania",0,1,1,1,0,1,1,1
+"254",7072,2012,"Australia","Oceania",0,1,1,1,0,1,1,1
+"255",7560,2014,"Australia","Oceania",0,1,1,0,0,1,1,0
+"256",6924,2017,"Australia","Oceania",0,1,1,1,0,1,1,1
+"257",7793,2016,"Australia","Oceania",0,1,1,1,0,1,1,1
+"258",7809,2016,"Australia","Oceania",0,1,1,1,0,1,1,1
+"259",8074,2013,"Australia","Oceania",0,1,1,1,0,1,1,1
+"260",7059,2010,"New Zealand","Oceania",0,1,1,1,0,1,1,1
+"261",8155,2015,"Australia","Oceania",0,1,1,1,0,1,1,1
+"262",7929,2013,"Australia","Oceania",0,1,1,1,0,1,1,1
+"263",5452,2010,"Australia","Oceania",0,1,1,1,0,1,1,1
+"264",5201,2011,"Australia","Oceania",0,1,1,0,0,1,1,0
+"265",7899,2015,"Australia","Oceania",0,1,1,1,0,1,1,1
+"266",5172,2012,"New Zealand","Oceania",0,1,1,1,0,1,1,1
+"267",7207,2018,"Australia","Oceania",0,1,1,1,0,1,1,1
+"268",7505,2013,"Australia","Oceania",0,1,1,1,0,1,1,1
+"269",7042,2009,"Australia","Oceania",0,1,1,1,0,1,1,1
+"270",2312,2010,"New Zealand","Oceania",0,1,1,1,0,1,1,1
+"271",5090,2010,"Australia","Oceania",0,1,1,1,0,1,1,1
+"272",5292,2011,"Australia","Oceania",0,1,1,1,0,1,1,1
+"273",7389,2016,"Australia","Oceania",0,1,1,1,0,1,1,1
+"274",7519,2016,"Australia","Oceania",0,1,1,1,0,1,1,1
+"275",7884,2016,"Australia","Oceania",0,1,1,1,0,1,1,1
+"276",4107,2009,"Australia","Oceania",1,0,0,0,1,0,0,0
+"277",7932,2016,"Australia","Oceania",0,1,1,1,0,1,1,1
+"278",6921,2017,"Australia","Oceania",0,1,1,1,0,1,1,1
+"279",6893,2017,"Australia","Oceania",0,1,1,1,0,1,1,1
+"280",8160,2017,"Australia","Oceania",0,1,1,1,0,1,1,1
+"281",6892,2017,"Australia","Oceania",0,1,1,1,0,1,1,1
+"282",7686,2016,"Australia","Oceania",0,1,1,1,0,1,1,1
+"283",8149,2011,"Australia","Oceania",0,1,1,1,0,1,1,1
+"284",7687,2010,"Australia","Oceania",0,1,1,1,0,1,1,1
+"285",7060,2009,"New Zealand","Oceania",0,1,1,1,0,1,1,1
+"286",4270,2009,"New Zealand","Oceania",0,1,1,0,0,1,1,0
+"287",8081,2017,"Australia","Oceania",0,1,1,1,0,1,1,1
+"288",7985,2011,"Australia","Oceania",0,1,1,1,0,1,1,1
+"289",1996,2009,"Australia","Oceania",0,1,1,1,0,1,1,1
+"290",5091,2011,"Australia","Oceania",0,1,1,1,0,1,1,1
+"291",6906,2017,"New Zealand","Oceania",0,1,1,1,0,1,1,1
+"292",7055,2014,"Australia","Oceania",0,1,1,1,0,1,1,1
+"293",5581,2009,"Australia","Oceania",0,1,1,1,0,1,1,1
+"294",4689,2009,"Australia","Oceania",0,1,1,1,0,1,1,1
+"295",7083,2017,"New Zealand","Oceania",0,1,1,1,0,1,1,1
+"296",7470,2015,"Australia","Oceania",0,1,1,1,0,1,1,1
+"297",7602,2009,"Australia","Oceania",0,1,1,1,0,1,1,1
+"298",7659,2012,"Australia","Oceania",0,1,1,1,0,1,1,1
+"299",7680,2011,"Australia","Oceania",0,1,1,1,0,1,1,1
+"300",5652,2012,"Australia","Oceania",0,1,1,1,0,1,1,1

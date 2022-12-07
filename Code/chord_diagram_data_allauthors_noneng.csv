@@ -1,0 +1,21 @@
+"","from","to","N"
+"1","Europe","Africa",39
+"2","Europe","Asia",5
+"3","Europe","Europe",68
+"4","Europe","Latin America & Caribbean",0
+"5","North America","Africa",0
+"6","North America","Asia",2
+"7","North America","Europe",0
+"8","North America","Latin America & Caribbean",1
+"9","Africa","Africa",78
+"10","Africa","Asia",0
+"11","Africa","Europe",0
+"12","Africa","Latin America & Caribbean",0
+"13","Asia","Africa",0
+"14","Asia","Asia",107
+"15","Asia","Europe",1
+"16","Asia","Latin America & Caribbean",0
+"17","Latin America & Caribbean","Africa",0
+"18","Latin America & Caribbean","Asia",0
+"19","Latin America & Caribbean","Europe",0
+"20","Latin America & Caribbean","Latin America & Caribbean",85
