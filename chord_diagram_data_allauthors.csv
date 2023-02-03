@@ -1,0 +1,37 @@
+"","from","to","N"
+"1","Europe","Africa",39
+"2","Europe","Asia",19
+"3","Europe","Europe",190
+"4","Europe","Latin America & Caribbean",8
+"5","Europe","North America",3
+"6","Europe","Oceania",0
+"7","North America","Africa",30
+"8","North America","Asia",8
+"9","North America","Europe",3
+"10","North America","Latin America & Caribbean",30
+"11","North America","North America",179
+"12","North America","Oceania",2
+"13","Africa","Africa",123
+"14","Africa","Asia",1
+"15","Africa","Europe",0
+"16","Africa","Latin America & Caribbean",0
+"17","Africa","North America",0
+"18","Africa","Oceania",0
+"19","Asia","Africa",4
+"20","Asia","Asia",220
+"21","Asia","Europe",0
+"22","Asia","Latin America & Caribbean",0
+"23","Asia","North America",0
+"24","Asia","Oceania",3
+"25","Oceania","Africa",13
+"26","Oceania","Asia",13
+"27","Oceania","Europe",0
+"28","Oceania","Latin America & Caribbean",3
+"29","Oceania","North America",1
+"30","Oceania","Oceania",179
+"31","Latin America & Caribbean","Africa",0
+"32","Latin America & Caribbean","Asia",0
+"33","Latin America & Caribbean","Europe",0
+"34","Latin America & Caribbean","Latin America & Caribbean",141
+"35","Latin America & Caribbean","North America",0
+"36","Latin America & Caribbean","Oceania",0

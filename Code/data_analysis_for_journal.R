@@ -224,7 +224,8 @@ percentage_author_data_continent$continent_label <- factor(percentage_author_dat
 ggplot(data=percentage_author_data_continent[country_continent=="Continent"]) + 
   geom_col(aes(x=continent_label,y=value,fill=author_label), position = "dodge", width=0.6)+
   scale_y_continuous(name="Percentage of studies", breaks=seq(0,100,20)) + xlab("\nContinent") + labs(fill='Author type')+
-  ggtitle("English language literature")
+  ggtitle("English language literature")+
+  scale_fill_viridis_d()+theme_classic()
   
 ggsave("Breakdown_by_author_type_continent.png", width=30, height=10, units="cm", dpi=300)
 
@@ -232,7 +233,8 @@ ggsave("Breakdown_by_author_type_continent.png", width=30, height=10, units="cm"
 ggplot(data=percentage_author_data_continent[country_continent=="Country"]) + 
   geom_col(aes(x=continent_label,y=value,fill=author_label), position = "dodge", width=0.6)+
   scale_y_continuous(name="Percentage of studies", breaks=seq(0,100,20)) + xlab("\nContinent") + labs(fill='Author type')+
-  ggtitle("English language literature")
+  ggtitle("English language literature")+
+  scale_fill_viridis_d()+theme_classic()
 
 ggsave("Breakdown_by_author_type_country.png", width=30, height=10, units="cm", dpi=300)
 
@@ -281,22 +283,27 @@ percentage_author_data_continent_yr_plot<-percentage_author_data_continent_yr
 samplesizeyears <- data.table(count=c(paste0("n=",table(cedata_uniq_studies$study_year))),years=as.numeric(names(table(cedata_uniq_studies$study_year))))
 
 #simple scatter plot of percentage data for different authorship types over time
-#Main text
+#Supporting Information
 ggplot(data=percentage_author_data_continent_yr_plot[country_continent=="Continent"]) + geom_point(aes(x=year_label,y=value,colour=author_label),size=3)+
-  geom_line(aes(x=year_label,y=value,group=author_label,colour=author_label),lwd=0.75)+ scale_fill_discrete(aes(colour=author_label))+
+  geom_line(aes(x=year_label,y=value,group=author_label,colour=author_label),lwd=0.75)+
+  scale_colour_viridis_d()+
   scale_y_continuous(name="Percentage of studies",breaks=seq(0,100,20),limits=c(-3,101))+ 
   scale_x_continuous(name="Publication Year", breaks=seq(2009,2018,1)) + labs(colour="Author Type") +
-  theme_bw() + geom_text(data=samplesizeyears,aes(label=count,x=years,y=0),vjust=2,size=2.5)+theme(axis.text=element_text(size=7.5),axis.title=element_text(size=11))+ggtitle("English language literature")
+  geom_text(data=samplesizeyears,aes(label=count,x=years,y=0),vjust=2,size=2.5)+
+  theme(axis.text=element_text(size=7.5),axis.title=element_text(size=11))+
+  ggtitle("English language literature")+
+  theme_classic()
+
 ggsave("Publications_over_time_continent.png", width=15, height=8, dpi=300, units="cm")
 
-#Supporting Information
-ggplot(data=percentage_author_data_continent_yr_plot[country_continent=="Country"]) + geom_point(aes(x=year_label,y=value,colour=author_label),size=3)+
-  geom_line(aes(x=year_label,y=value,group=author_label,colour=author_label),lwd=0.75)+ scale_fill_discrete(aes(colour=author_label))+
-  scale_y_continuous(name="Percentage of studies",breaks=seq(0,100,20),limits=c(-3,101))+ 
-  scale_x_continuous(name="Publication Year", breaks=seq(2009,2018,1)) + labs(colour="Author Type") +
-  theme_bw() + geom_text(data=samplesizeyears,aes(label=count,x=years,y=0),vjust=2,size=2.5)+theme(axis.text=element_text(size=7.5),axis.title=element_text(size=11))+ggtitle("English language literature")
-ggsave("Publications_over_time_country.png", width=15, height=8, dpi=300, units="cm")
-#write.csv(percentage_author_data_continent_yr,"perc_studies_overtime_by_author_cat.csv")
+# 
+# ggplot(data=percentage_author_data_continent_yr_plot[country_continent=="Country"]) + geom_point(aes(x=year_label,y=value,colour=author_label),size=3)+
+#   geom_line(aes(x=year_label,y=value,group=author_label,colour=author_label),lwd=0.75)+ scale_fill_discrete(aes(colour=author_label))+
+#   scale_y_continuous(name="Percentage of studies",breaks=seq(0,100,20),limits=c(-3,101))+ 
+#   scale_x_continuous(name="Publication Year", breaks=seq(2009,2018,1)) + labs(colour="Author Type") +
+#   theme_bw() + geom_text(data=samplesizeyears,aes(label=count,x=years,y=0),vjust=2,size=2.5)+theme(axis.text=element_text(size=7.5),axis.title=element_text(size=11))+ggtitle("English language literature")
+# ggsave("Publications_over_time_country.png", width=15, height=8, dpi=300, units="cm")
+# #write.csv(percentage_author_data_continent_yr,"perc_studies_overtime_by_author_cat.csv")
 
 #export whole augmented dataset with analysis
 #write.csv(cedata_uniq_studies, "cedata_unique_studies_forstats.csv")

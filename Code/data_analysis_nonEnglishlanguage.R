@@ -23,7 +23,7 @@ str(cedata)
 #this code is to restrict the dataset to lead authors only for this analysis, should be ~50 studies
 cedata_lead_authors <- cedata[lead_author==1]
 
-nrow(cedata_first_authors)
+nrow(cedata_lead_authors)
 
 #now we can make a data table with just the affiliation continents and study continents in for each study
 df_leadauthors <- data.table(table(cedata_lead_authors[,list(affiliation_continent,study_continent)]))
@@ -219,19 +219,22 @@ percentage_author_data_continent$continent_label <- factor(percentage_author_dat
 #Main text
 ggplot(data=percentage_author_data_continent[country_continent=="Continent"]) + 
   geom_col(aes(x=continent_label,y=value,fill=author_label), position = "dodge", width=0.6)+
-  scale_y_continuous(name="Percentage of studies", breaks=seq(0,100,20)) + xlab("\nContinent") + labs(fill='Author type')+ggtitle("Non-english language literature")
+  scale_y_continuous(name="Percentage of studies", breaks=seq(0,100,20)) + xlab("\nContinent") + labs(fill='Author type')+ggtitle("Non-english language literature")+
+  scale_fill_viridis_d()+theme_classic()
   
 ggsave("Breakdown_by_author_type_noneng.png", width=30, height=10, units="cm", dpi=300)
 
 #Appendix
 ggplot(data=percentage_author_data_continent[country_continent=="Country"]) + 
   geom_col(aes(x=continent_label,y=value,fill=author_label), position = "dodge", width=0.6)+
-  scale_y_continuous(name="Percentage of studies", breaks=seq(0,100,20)) + xlab("\nContinent") + labs(fill='Author type')+ggtitle("Non-english language literature")
+  scale_y_continuous(name="Percentage of studies", breaks=seq(0,100,20)) + xlab("\nContinent") + labs(fill='Author type')+ggtitle("Non-english language literature")+
+  scale_fill_viridis_d()+theme_classic()
 
 ggsave("Breakdown_by_author_type_country_noneng.png", width=30, height=10, units="cm", dpi=300)
 
 write.csv(percentage_author_data_continent,"perc_studies_by_continent_and_author_cat_noneng.csv")
-############################### by publication year #############################################################
+
+############################### by publication year - appendix #############################################################
 # cedata_uniq_studies
 # library(dplyr)
 # summary(cedata_uniq_studies$study_year)
@@ -275,22 +278,32 @@ percentage_author_data_continent_yr_plot<-percentage_author_data_continent_yr#[y
 #simple scatter plot of percentage data for different authors
 #Main text
 ggplot(data=percentage_author_data_continent_yr_plot[country_continent=="Continent"]) + geom_point(aes(x=year_label,y=value,colour=author_label),size=3)+
-  geom_line(aes(x=year_label,y=value,group=author_label,colour=author_label),lwd=0.75)+ scale_fill_discrete(aes(colour=author_label))+
+  geom_line(aes(x=year_label,y=value,group=author_label,colour=author_label),lwd=0.75)+ 
+  scale_colour_viridis_d()+
   scale_y_continuous(name="Percentage of studies",breaks=seq(0,100,20),limits=c(-3,101))+ 
   scale_x_continuous(name="Publication Year", breaks=seq(2009,2020,1)) + labs(colour="Author Type") +
-  theme_bw() + geom_text(data=samplesizeyears,aes(label=count,x=years,y=0),vjust=2,size=2.5)+theme(axis.text=element_text(size=7.5),axis.title=element_text(size=11))+ggtitle("Non-english language literature")
+  geom_text(data=samplesizeyears,aes(label=count,x=years,y=0),vjust=2,size=2.5)+
+  theme(axis.text=element_text(size=7.5),axis.title=element_text(size=11))+
+  ggtitle("Non-english language literature")+
+  theme_classic()
+
 ggsave("Publications_over_time_noneng.png", width=15, height=8, dpi=300, units="cm")
 write.csv(percentage_author_data_continent_yr,"perc_studies_overtime_by_author_cat_noneng.csv")
 
 write.csv(cedata_uniq_studies, "cedata_unique_studies_forstats_noneng.csv")
 
-#Appendix
-ggplot(data=percentage_author_data_continent_yr_plot[country_continent=="Country"]) + geom_point(aes(x=year_label,y=value,colour=author_label),size=3)+
-  geom_line(aes(x=year_label,y=value,group=author_label,colour=author_label),lwd=0.75)+ scale_fill_discrete(aes(colour=author_label))+
-  scale_y_continuous(name="Percentage of studies",breaks=seq(0,100,20),limits=c(-3,101))+ 
-  scale_x_continuous(name="Publication Year", breaks=seq(2009,2020,1)) + labs(colour="Author Type") +
-  theme_bw() + geom_text(data=samplesizeyears,aes(label=count,x=years,y=0),vjust=2,size=2.5)+theme(axis.text=element_text(size=7.5),axis.title=element_text(size=11))+ggtitle("Non-english language literature")
-ggsave("Publications_over_time_noneng_country_appendix.png", width=15, height=8, dpi=300, units="cm")
+# #Appendix
+# ggplot(data=percentage_author_data_continent_yr_plot[country_continent=="Country"]) + geom_point(aes(x=year_label,y=value,colour=author_label),size=3)+
+#   geom_line(aes(x=year_label,y=value,group=author_label,colour=author_label),lwd=0.75)+ 
+#   scale_colour_viridis_d()+
+#   scale_y_continuous(name="Percentage of studies",breaks=seq(0,100,20),limits=c(-3,101))+ 
+#   scale_x_continuous(name="Publication Year", breaks=seq(2009,2020,1)) + labs(colour="Author Type") +
+#   geom_text(data=samplesizeyears,aes(label=count,x=years,y=0),vjust=2,size=2.5)+
+#   theme(axis.text=element_text(size=7.5),axis.title=element_text(size=11))+
+#   ggtitle("Non-english language literature")+
+#   theme_classic()
+# 
+# ggsave("Publications_over_time_noneng_country_appendix.png", width=15, height=8, dpi=300, units="cm")
 
 
 #########LINEAR MODELS#########
